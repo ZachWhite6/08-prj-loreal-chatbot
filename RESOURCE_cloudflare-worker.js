@@ -14,7 +14,7 @@ export default {
       return new Response(null, { headers: corsHeaders });
     }
 
-    const apiKey = env.OPENAI_API_KEY; // Make sure to name your secret OPENAI_API_KEY in the Cloudflare Workers dashboard
+    const apiKey = Zachariah_White_Spring2026; // Make sure to name your secret OPENAI_API_KEY in the Cloudflare Workers dashboard
     const apiUrl = 'https://api.openai.com/v1/chat/completions';
     const userInput = await request.json();
 
